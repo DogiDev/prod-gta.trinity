@@ -1,0 +1,72 @@
+html, body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#loading-placeholder, #app-container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#video-element {
+  width: 100vw;
+  height: auto;
+}
+
+.text-wrapper {
+  color: white;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+// yacht clue
+#yacht-clue {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  svg path {
+    color: white;
+  }
+
+  .first-arrows {
+    margin-bottom: 8px;
+  }
+  .arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 16px;
+      p {
+        margin: 0 8px;
+        padding: 0;
+        color: white;
+        font-size: 4em;
+        line-height: 1;
+      }
+    }
+  }
+
+  .clue-icon {
+    margin-top: 32px;
+  }
+}
